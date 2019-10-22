@@ -10,14 +10,11 @@ def summon_captain_planet(planeteer_calls)
     # binding.pry 
     "#{element.capitalize}!"
 #     element.capitalize
-
   end 
 end
 
-# names.map! {|name| name.capitalize } # now names contains ['Danil', 'Edmund']
-
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  if array.any? {|i| i.length > 4}
 end
 
 def find_the_cheese# code an argument here
